@@ -1,0 +1,10 @@
+development:
+  server: "http://localhost:9292/faye"
+  secret_token: "secret"
+test:
+  server: "http://localhost:9292/faye"
+  secret_token: "secret"
+production:
+  server: "http://alter-pp.com/faye"
+  secret_token: "592f1e448e3f12feed45e723db48a4136895e5b10e8362b7445f2196255f9708"
+  signature_expiration: 3600 # one hour
